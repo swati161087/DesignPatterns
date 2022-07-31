@@ -1,4 +1,4 @@
-package behaviouralDesignPattern.strategy;
+package behaviouralDesignPattern.strategy.factoryMethod;
 
 public class WalkPathCalculationStragtegy implements PathCalculationStrategy{
     @Override

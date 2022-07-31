@@ -1,4 +1,4 @@
-package behaviouralDesignPattern.strategy;
+package behaviouralDesignPattern.strategy.factoryMethod;
 
 public class Client {
     public static void main(String[] args) {
