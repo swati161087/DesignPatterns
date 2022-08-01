@@ -1,0 +1,13 @@
+package behaviouralDesignPattern.observer;
+
+public class InventoryService implements Subscribers{
+    @Override
+    public void subscribeForEvent(Event e,Producer flipkart) {
+        flipkart.registerSubscriber(e,this);
+    }
+
+    @Override
+    public void listen(Event e) {
+        System.out.println("the event "+e+" has occoured Update Inventory");
+    }
+}
