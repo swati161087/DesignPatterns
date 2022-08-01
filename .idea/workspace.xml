@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33091e40-c301-4c7d-99f8-97e63b592571" name="Changes" comment="assingment">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Flipkart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Subscribers.java" afterDir="false" />
+    <list default="true" id="33091e40-c301-4c7d-99f8-97e63b592571" name="Changes" comment="observer">
+      <change afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Amazon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Amazon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Flipkart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Flipkart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Subscribers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Subscribers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659114489205</updated>
       <workItem from="1659114496460" duration="8568000" />
-      <workItem from="1659325118670" duration="3051000" />
+      <workItem from="1659325118670" duration="5414000" />
     </task>
     <task id="LOCAL-00001" summary="assingment">
       <created>1659255161895</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659255161896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="observer">
+      <created>1659359338265</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659359338265</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,14 +121,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="assingment" />
-    <option name="LAST_COMMIT_MESSAGE" value="assingment" />
+    <MESSAGE value="observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/behaviouralDesignPattern/observer/Flipkart.java</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

@@ -7,7 +7,7 @@ public class EmailService implements Subscribers{
     }
 
     @Override
-    public void listen(Event e) {
-        System.out.println("the event "+e+" has occoured Send Email");
+    public void listen(Event e,Order o) {
+        System.out.println("the event "+e+" has occoured Send Email " + o.getId() + " at "+ o.getShopingSite());
     }
 }
