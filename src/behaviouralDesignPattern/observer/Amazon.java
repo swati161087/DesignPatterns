@@ -21,15 +21,16 @@ public class Amazon implements Producer{
     }
 
     @Override
-    public void notify(Event e) {
+    public void notify(Event e,Order o) {
 
         for(Subscribers s:map.get(e))
         {
-            s.listen(e);
+            s.listen(e,o);
         }
     }
 
     public void placeOrder(){
-        notify(Event.PLACEORDER);
+        Order o=new Order((int)(Math.random()*100),"Amazon");
+        notify(Event.PLACEORDER,o);
     }
 }
