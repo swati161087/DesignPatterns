@@ -1,20 +1,21 @@
 package creationalDesignPattern.singleton.implementaion3;
 
 public class Database {
-    private static Database db;
-    private Database(){
+  private static Database db;
 
-    }
-    public static  Database getInstance(){
+  private Database(){
+
+  }
+  public static  Database getInstance(){
         if(db==null) {
-//            synchronized(){
-//                if(db==null)
-//                {
-//                    db = new Database();
-//                }
-//            }
-
-        }
-        return db;
-    }
+                  synchronized(Database.class){
+                      if(db==null)
+                      {
+                          db = new Database();
+                      }
+                  }
+                }
+    return db;
+  }
 }
+
